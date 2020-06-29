@@ -6,7 +6,7 @@ zmax=5;
 Nz=1e7;
 z0=linspace(zmin,zmax,Nz);
 
-% N=1;                   %%% 一个初始点给出的样本数
+% N=1;                   %%% 涓�涓垵濮嬬偣缁欏嚭鐨勬牱鏈暟
 h=0.001;
 alpha=1.5;
 beta=-0.5;
