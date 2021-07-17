@@ -6,7 +6,7 @@ zmax=5;
 Nz=1e7;
 z0=linspace(zmin,zmax,Nz);
 
-% N=1;                   %%% 一个初始点给出的样本数
+% N=1;                   %%% 涓�涓垵濮嬬偣缁欏嚭鐨勬牱鏈暟
 h=0.001;
 alpha=1.5;
 beta=-0.5;
@@ -140,7 +140,7 @@ B0Bt=wbin*BbinBt';
 X0=(A0'*A0)\(A0'*B0);
 XBt0=(A0'*A0)\(A0'*B0Bt);
 
-%%% 设固定阈值lambda
+%%% 璁惧浐瀹氶槇鍊糽ambda
 A00=A0;
 B00=B0;
 B00Bt=B0Bt;
